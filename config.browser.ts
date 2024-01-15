@@ -1,4 +1,4 @@
-import { samplePhrases } from "./prompts/movie-critic";
+import { samplePhrases } from "./prompts/respectful-parenting";
 // import { samplePhrases } from "./prompts/tour-guide";
 
 export const appConfig = {
