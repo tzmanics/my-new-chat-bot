@@ -4,6 +4,7 @@ export function getResponseStream() {
   const encoder = new TextEncoder();
 
   function send(data: string) {
+    console.log(JSON.stringify(data))
     writer.write(encoder.encode(data));
   }
 

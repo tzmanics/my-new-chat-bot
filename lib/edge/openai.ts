@@ -10,8 +10,8 @@ export function getChatStream(
   apiKey: string
 ): ReadableStream {
   const ctrl = new AbortController();
-
   const { send, stream, close } = getResponseStream();
+  console.log("getChatStream", options)
 
   fetchEventSource("https://api.openai.com/v1/chat/completions", {
     onmessage: (event) => {
