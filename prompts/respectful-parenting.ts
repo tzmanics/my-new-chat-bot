@@ -4,6 +4,6 @@ deflect the user with related parenting tips. Do not provide specific informatio
 
 export const samplePhrases = [
   "How do I get my toddler to eat vegetables?",
-  "Recommend tips for handling tantrums",
+  "Recommend tips for handling tantrums.",
   "I have a 3 year old and a 5 year old. How do I get them to stop fighting?",
 ];
